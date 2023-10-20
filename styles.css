@@ -2,15 +2,15 @@
 /* Your CSS Code here. */
 /* Apply styles to the grid container */
 .holder {
-    display: grid; /* Enable CSS grid */
-    grid-template-rows: repeat(2, 1fr); /* Create 2 equal rows */
-    grid-template-columns: repeat(2, 1fr); /* Create 2 equal columns */
-    width: 200px; /* Total size of 200px */
-    height: 200px; /* Total size of 200px */
-    gap: 10px; /* Gap between grid items (adjust as needed) */
+    display: grid; 
+    grid-template-rows: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr); 
+    width: 200px; 
+    height: 200px;
+    gap: 10px; 
 }
 
-/* Apply styles to the individual items (no changes required) */
+
 .item-1, .item-2, .item-3, .item-4 {
     background-color: lightblue;
     padding: 10px;
